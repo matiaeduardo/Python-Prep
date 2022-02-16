@@ -63,10 +63,10 @@ var23 -= 1
 print(var23)
 # 24) Realizar la operacion 1 << 2 ¿Por qué da ese resultado? ¿Qué es el sistema de numeración binario?
 var24 = 1<<2
-''
+'convierte el 1 en numero binario y realiza un despazamiento hacia la izquiera de dos bits. Es el sistema de numeracion de dos digitos (1, 0)'
 print(var24)
-print(bin(2))
-~20
 # 25) Realizar la operación 2 + '2' ¿Por qué no está permitido? ¿Si los dos operandos serían del mismo tipo, siempre arrojaría el mismo resultado?
-
+var25 = 2+'2'
+'Daría error porque no se puedo sumar caracteres y un numero. No, porque si sumamos el "2"+"2" daria de resultado "22".'
 # 26) Realizar una operación válida entre valores de tipo entero y string
+print('Hola '*3)

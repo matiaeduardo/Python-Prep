@@ -101,9 +101,10 @@ while min<=max:
         print('\nNo es mayor a uno, volver a ingresar.')
          """
 #15) Crear un ciclo while que encuentre dentro del rango de 100 a 300 el primer número divisible por 3 y además múltiplo de 6
-min = 100
+""" min = 100
 while min<300:
     if min%6 == 0:
         print(min)
         break
     min +=1
+ """
